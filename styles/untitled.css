@@ -3,6 +3,19 @@ body {
 	position: absolute;
 }
 
+
+a:link,
+a:visited,
+a:active {
+	color:red;
+	text-decoration:none;
+}
+
+a:hover {
+	color:#000;
+	text-decoration:overline;
+}
+
 /*
 a:link {
   color: green;
