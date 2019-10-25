@@ -1,0 +1,47 @@
+body, html {
+	height:100%;
+	margin:0;
+	background:black;
+	font-family: Big Shoulders Display;
+	font-size: 22px;
+	line-height: 32px;
+}
+
+p {
+	padding:1em;
+}
+
+.first{
+	position:relative;
+	left:700px;
+	width:500px;
+}
+
+.second {
+	width:200px;
+}
+
+.third {
+	width:700px;
+	position:relative;
+	left:200px;
+}
+
+.fourth {
+	width:67px;
+	position:fixed;
+	left: 400px;
+	top: 400px;
+}
+
+.fifth {
+	width:180px;
+	position:fixed;
+	left: 600px;
+	top: 120px;
+}
+
+.green {
+	background: black;
+	color: white;
+}
