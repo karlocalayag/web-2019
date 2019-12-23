@@ -105,9 +105,10 @@ ul li:hover {
   padding: 85px;
   font-family: 'Roboto Mono', monospace;
   font-size: 11px;
+  line-height: 18px;
   background: white;
   color: black;
-  width: 66%;
+  width: 60%;
 }
 
 .writing {
@@ -120,10 +121,10 @@ ul li:hover {
 
 .extra {
   font-family: 'Roboto Mono', monospace;
-  font-size: 60pt;
+  font-size: 40pt;
   color: black;
   position: fixed;
   margin: 0pt;
-  top: 41pt;
-  left: 41pt;
+  top: 200pt;
+  left: 200pt;
 }
