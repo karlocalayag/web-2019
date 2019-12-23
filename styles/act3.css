@@ -4,7 +4,8 @@ body {
 }
 
 .wrapper {
-  width: 100%;
+  width: 65%;
+  letter-spacing: 4px;
  /* margin: 10px; auto;*/
 }
 
@@ -16,7 +17,7 @@ body {
 
 body {
     font-family: 'Roboto Mono', monospace;
-    font-size: 15px;
+    font-size: 14px;
 }
 
 /* ---- grid ---- */
@@ -57,7 +58,8 @@ body {
 /******* NAVIGATION *******/
 
 .iso-nav {
-  text-align:center;
+  text-align:justify;
+  text-align-last:right;
 }
 
 ul  li {
@@ -102,7 +104,7 @@ ul li:hover {
 }
 
 .write-up {
-  padding: 85px;
+  padding: 55px;
   font-family: 'Roboto Mono', monospace;
   font-size: 11px;
   line-height: 18px;
