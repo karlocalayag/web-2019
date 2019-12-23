@@ -1,0 +1,129 @@
+html,
+body {
+  margin:0;
+}
+
+.wrapper {
+  width: 80%;
+ /* margin: 10px; auto;*/
+}
+
+/*img {
+  max-width:100%;
+}*/
+
+* { box-sizing: border-box; }
+
+body {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 18px;
+}
+
+/* ---- grid ---- */
+
+.grid {
+  background: black;
+  width:100vw;
+}
+
+/* clear fix */
+.grid:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+/* ---- .grid-item ---- */
+
+.grid-item {
+  box-sizing:border-box;
+  /*float: left;*/
+  width: 100px;
+  height: 100px;
+  background: white;
+  overflow:hidden;
+}
+
+.grid-item--width2 { width: 200px; }
+
+.grid-item--height2 { 
+  height: 200px; 
+  max-width:200px!important;
+  max-height:200px;
+}
+
+
+
+/******* NAVIGATION *******/
+
+.iso-nav {
+  text-align:center;
+}
+
+ul  li {
+  list-style:none;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  padding:10px 15px;
+  cursor: pointer;
+  -webkit-transition: all .5s ease;
+  -moz-transition: all .5s ease;
+  -ms-transition: all .5s ease;
+  transition: all .5s ease;
+}
+
+ul li:hover {
+  background: #000;
+  color: #fff;
+
+}
+
+/********* woop ********/
+
+/*.main-iso {
+  width: 100%;
+}
+
+/*.main-iso .item{
+  width: 300px;
+  float: left;
+}
+
+.item img {
+  width: 80%;
+  height: auto;
+}*/
+
+.active {
+  background: #000;
+  color: #FFF;
+
+}
+
+.write-up {
+  padding: 85px;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 11px;
+  background: white;
+  color: black;
+  width: 50%;
+}
+
+.writing {
+  color: white;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 39px;
+  width: 100vw;
+  padding: 20px;
+}
+
+.extra {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 60pt;
+  color: black;
+  position: fixed;
+  margin: 0pt;
+  top: 41pt;
+  left: 41pt;
+}

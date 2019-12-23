@@ -5,10 +5,8 @@ hello = hello + "miss you"
 
 
 
-
-
 $("p").hover(function(){
 	$(this)
 	.append(hello)
-	.addClass("green")
+	.addClass("write")
 })

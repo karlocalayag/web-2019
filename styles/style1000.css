@@ -18,6 +18,7 @@ p {
 }
 
 .second {
+	position:relative;
 	width:200px;
 }
 
@@ -41,7 +42,8 @@ p {
 	top: 120px;
 }
 
-.green {
+
+.write {
 	background: black;
 	color: white;
 }

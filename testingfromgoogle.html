@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head>
+    	<meta charset="utf-8">
+   		 <title>ACT III</title>
+
+    <link rel="stylesheet" href="styles/act3.css">
+	</head>
+
+	<body>
+
+<div class="write-up"><p></p></div>
+
+<div class="random-grid">
+  <div class="item1"></div>
+  <div class="item2"></div>
+  <div class="item3">3</div>  
+  <div class="item4">4</div>
+  <div class="item5">5</div>
+  <div class="item6">6</div>
+  <div class="item7">7</div>
+  <div class="item8">8</div>  
+</div>
+
+<div id="street-view"></div>
+
+<img src= "pic_test.png" alt="Farming">
+<img src= "pic_test2.png" alt="Farming-2">
+    
+
+<script>
+      var panorama;
+      function initialize() {
+        panorama = new google.maps.StreetViewPanorama(
+            document.getElementById('street-view'),
+            {
+              position: {lat: 37.869260, lng: -122.254811},
+              pov: {heading: 165, pitch: 0},
+              zoom: 1
+            });
+      }
+</script>
+<script async defer
+         src="https://maps.googleapis.com/maps/api/js?AIzaSyBGmS79wbaQoZIauaG03CSWLM1P_WfC2bI&callback=initialize">
+</script>
+
+</body>
+</html>

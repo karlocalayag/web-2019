@@ -1,0 +1,40 @@
+body{
+	margin:0;
+	padding: 0;
+}
+
+.container{
+	width: 50%;
+	margin: 10px auto;
+}
+
+.menu{
+	text-align: center;
+}
+
+.menu ul li {
+	display: inline-block;
+	margin: 0;
+	list-style: none;
+	padding: 10px 15px;
+	border: 1px solid black;
+	cursor: pointer;
+	transition: all .5s ease;
+}
+
+.menu ul li: hover{
+	background: red;
+	color: #000;
+
+}
+
+.menu-item{
+	width:100%;
+}
+
+.menu-item{
+	width: 303px;
+	float: left;
+	margin-bottom: 10px;
+}
+}
