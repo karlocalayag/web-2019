@@ -4,7 +4,7 @@ body {
 }
 
 .wrapper {
-  width: 80%;
+  width: 100%;
  /* margin: 10px; auto;*/
 }
 
@@ -121,10 +121,20 @@ ul li:hover {
 
 .extra {
   font-family: 'Roboto Mono', monospace;
-  font-size: 40pt;
+  font-size: 35pt;
   color: black;
   position: fixed;
   margin: 0pt;
-  top: 200pt;
-  left: 200pt;
+  top: 128pt;
+  left: 540pt;
+}
+
+.extra-1 {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 7pt;
+  color: black;
+  position: fixed;
+  margin: 0pt;
+  top: 140pt;
+  left: 790pt;
 }
