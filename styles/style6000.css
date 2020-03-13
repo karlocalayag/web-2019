@@ -10,7 +10,11 @@ body {
 }
 
 canvas {
-    position: absolute;
+    display: block;
+    position: fixed;
+    width: 110%;
+    height: 110%;
+    background-size: 100% 100%;
 }
 
 video {
