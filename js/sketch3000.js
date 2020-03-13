@@ -9,7 +9,7 @@ var txtSize = 25;
 var speedinc = 1.001;
 var maxSpeed = 1;
 var particles = [];
-var message = "How the z-axis may be a literal path to the west—but in this visual paradigm, west is actually no different than east, north, or south. The only direction is forward. Perhaps falling forwards. ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ I hate to do this. ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ But genesis, and god said let there be light. ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZAnd there was light. ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZLight has the capacity to travel forever. Until it’s absorbed by an object, it’s otherwise a vanishing point that never ends. ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZWe realized it was actually easier to duplicate. ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ It was good.";
+var message = "And there was light. ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ Light has the capacity to travel forever. Until it’s absorbed by an object, it’s otherwise a vanishing point that never ends.";
 var lastPos;
 
 function setup() {
