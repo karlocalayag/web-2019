@@ -44,8 +44,6 @@ function renderParticle(i)
 
   text(message[i],particles[i].pos.x,particles[i].pos.y);
   
-
-  
   
 }
 
