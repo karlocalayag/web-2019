@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>RIP KOBE</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, intial-scale=1">
+	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="/favicon.ico" type="image/x-icon">
+	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="/favicon.ico" type="image/x-icon">
+	<script language="Javascript">
+
+var message = new Array();
+message[0] = ""
+var reps = 2;
+var speed = 666;
+var p = message.length;
+var T = "";
+var C = 0;
+var mC = 0;
+var s = 0;
+var sT = null;
+if (reps < 1) reps = 1;
+function doIt() {
+T = message[mC];
+A();
+}
+function A() {
+s++;
+if (s > 8) { s = 1;}
+if (s == 1) { document.title = '✊🏻✊✊🏼✊✊🏽✊✊🏾✊✊🏿✊✊🏻✊✊🏼✊✊✊🏻✊✊🏼✊✊🏽✊✊🏾'+T+'✊🏻✊✊🏼✊✊🏽✊✊🏾✊✊🏿✊✊🏻✊✊🏼✊✊🏽✊✊🏾✊✊'; }
+if (s == 2) { document.title = '☠️☠️☠️☠️☠️☠️☠️☠️☠️☠️☠️☠️☠️☠️☠️☠️☠'+T+'☠️☠️☠️☠️☠️☠️☠️☠️☠️☠️☠️☠️☠️☠️☠️☠️☠️☠️'; }
+if (s == 3) { document.title = '🌍🌎🌍🌎🌍🌎🌏🌍🌎🌍🌎🌍🌎🌏🌍🌎🌍🌎🌍🌎🌏'+T+'✊🏻✊✊🏼✊✊🏽✊✊🏾✊✊🏿✊✊🏻✊✊🏼✊✊'; }
+if (s == 4) { document.title = '✊🏻✊✊🏼✊✊🏽✊✊🏾✊✊🏿✊✊🏻✊✊🏼✊✊🏽✊✊🏾✊✊'+T+'⛔⛔⛔⛔⛔⛔⛔⛔⛔⛔⛔⛔⛔⛔⛔⛔⛔⛔⛔⛔'; }
+if (s == 5) { document.title = '🔌🔌🔌🔌🔌🔌🔌🔌🔌🔌🔌🔌🔌🔌🔌🔌🔌🔌🔌'+T+'🛠🛠🛠🛠🛠🛠🛠🛠🛠🛠🛠🛠🛠🛠🛠🛠🛠🛠🛠🛠'; }
+if (s == 6) { document.title = '💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣💣'+T+'🖖🖖🏿🖖🖖🏼🖖🏾🖖🏼🖖🏿🖖🖖🏼🖖🏾🖖🖖🏿🖖🖖🏼🖖🏾🖖🏼'; }
+if (s == 7) { document.title = '🔌🔌🔌🔌🔌🔌🔌🔌🔌🔌🔌🔌🔌🔌🔌🔌🔌🔌'+T+'🔌🔌🔌🔌🔌🔌🔌🔌🔌🔌🔌🔌🔌🔌🔌🔌🔌🔌'; }
+if (s == 8) { document.title = '✊🏻✊✊🏼✊✊🏽✊✊🏾✊✊🏿✊✊🏻✊✊🏼✊✊🏽✊✊🏾✊✊🏿'+T+'⏳⏳⏳⏳⏳⏳⏳⏳⏳⏳⏳⏳⏳⏳⏳⏳⏳⏳⏳⏳⏳'; }if (C < (8 * reps)) {
+sT = setTimeout("A()", speed);
+C++;
+}
+else {
+C = 0;
+s = 0;
+mC++;
+if(mC > p - 1) mC = 0;
+sT = null;
+doIt();
+   }
+}
+doIt();
+
+(function() {
+	var template = '✊☔☁☁☁☠⛔☁☁☁⏳☔⚠☁☁⛔⏳☠💣✊🏾'.split(''),
+		len = template.length,
+		chars, string, i, j, k,
+		pushOrHash = typeof window.history.pushState === 'function',
+
+	increase = function(n) {
+		return n < len - 1 ? n + 1 : 0;
+	},
+
+	update = function() {
+		chars = [];
+		j = k;
+
+		for (i=0; i<len; i++) {
+			j = increase(j);
+			chars[i] = template[j];
+		}
+
+		string = ['/', chars.join(''), '/'].join('');
+		k = increase(k);
+
+		if (pushOrHash) {
+			window.history.pushState(null, null, string);
+		} else {
+			window.document.location.hash = string;
+		}
+
+		setTimeout(update, 1000);
+	};
+
+	update();
+})();
+</script>
+<script type="text/javascript">
+	
+
+    function pageLoad()
+    {
+
+	  alert('😂 acceptance 😂');
+    }
+
+
+
+ pageLoad();
+</script>
+
+<meta name="DESCRIPTION" content="&nbsp;̰̰̰̰̰̰̰̰̰̰̰̰̰̰̰̰̰̰̰̰̰̰̰̰̰̰ ̰̰̰̰̰̰̰̰̰̰̰̰̰̰̰̰̰̰̰̰̰̰̰̰̰̰-̿̿̿[҉҉҉̅҉҉҉̲҉҉҉̲҉҉҉̅҉҉҉۰҉҉҉̅҉҉҉̲҉҉҉̲҉҉҉̅҉ ҉҉҉̅҉҉҉̲҉҉҉̲҉҉҉̅҉ ҉҉҉̅҉҉҉̲҉҉҉̲҉҉҉̅҉ ҉҉҉̅҉҉҉̲҉҉҉̲҉҉҉̅҉ ⍩᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉ A journey of a thousand miles starts with a single search.&nbsp;̰̰̰̰̰̰̰̰̰̰̰̰̰̰̰̰̰̰̰̰̰̰̰̰̰̰ ̰̰̰̰̰̰̰̰̰̰̰̰̰̰̰̰̰̰̰̰̰̰̰̰̰̰-̿̿̿[҉҉҉̅҉҉҉̲҉҉҉̲҉҉҉̅҉҉҉۰҉҉҉̅҉҉҉̲҉҉҉̲҉҉҉̅҉">
+<meta name="KEYWORDS" content="⍩᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉a journey of a thousand miles starts with a single query⍩᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉᷉">
+<link href="https://fonts.googleapis.com/css?family=Gaegu|Give+You+Glory|League+Script" rel="stylesheet">
+<style>
+	
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+ }
+
+.txt {
+	margin-top:5%;
+	margin-left:11%;
+	margin-right:11%;
+}
+
+a {
+z-index:3;
+text-align: center;
+	font: Palatino;
+	font-size:2em;
+  color: white;
+   opacity: 0.3;
+    filter: alpha(opacity=30);
+  font-variant: normal;
+	font-weight: 900;
+	line-height: 0.5em;;
+  text-decoration: none;
+  text-shadow: -1px -1px 1px brown, 1px 1px 0px #000;
+  font-weight: bold;
+ }
+
+
+ .hover_img {
+position:auto;
+z-index:3;
+margin-top:5%;
+   text-align: center;
+	font: Palatino;
+	font-size:2em;
+  color: white;
+  font-variant: normal;
+	font-weight: 900;
+	line-height: 0.5em;;
+  text-decoration: none;
+  text-shadow: -1px -1px 1px grey, 1px 1px 0px #000;
+  font-weight: bold;
+
+}
+.hover_img a span {
+z-index:-1;
+  position: fixed;
+  display:none;
+   top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+overflow: hidden;
+ width: 100%;
+ height:100%;
+
+
+
+
+}
+.hover_img a:hover span {
+  display:block;
+  position: fixed;
+   z-index:-1;
+
+}
+
+.hover_img:active span {
+	 display:block;
+  position: fixed;
+   z-index:-1;
+	}
+
+
+.hover_img a:hover span img{
+  position: fixed;
+  z-index:-1;
+   top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+overflow: hidden;
+  width: 100%;
+
+
+
+}
+
+.hover_img a:active span img{
+  position: fixed;
+  z-index:-1;
+   top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+overflow: hidden;
+  width: 100%;
+
+
+
+}
+
+
+.hover_img a:hover span video{
+  position: fixed;
+  z-index:-1;
+  top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+overflow: hidden;
+  width: 100%;
+
+
+}
+
+.hover_img a:active span video{
+  position: fixed;
+  z-index:-1;
+  top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+overflow: hidden;
+  width: 100%;
+
+
+}
+
+
+ a:hover {
+ z-index:3;
+    color: white;
+	 opacity: 1;
+    filter: alpha(opacity=100);
+}
+
+a:active {
+ z-index:3;
+    color: white;
+	 opacity: 1;
+    filter: alpha(opacity=100);
+}
+.navopen {
+	position:fixed;
+	cursor: context-menu;
+	z-index: 105;
+	align-content:center;
+	top:5%;
+	left:5%;
+}
+
+
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 106;
+  top: 0;
+  left: 0;
+  background-color: #7B7568;
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content {
+  position: relative;
+  top: 10%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.overlay a {
+  padding: 8px;
+  font-family: 'League Script', cursive;
+	font-size:3.3em;
+  color: white;
+  font-variant: normal;
+	font-weight: 900;
+	line-height: 50px;
+  text-decoration: none;
+  text-shadow: -1px -1px 1px grey, 1px 1px 0px #000;
+  font-weight: bold;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 3em;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+  font-size: 3em;
+  font-family:'League Script', cursive;
+  top: 0px;
+  right: 0px;
+  }
+}
+
+</style>
+<meta charset="UTF-8">
+</head>
+<body bgcolor="#7B7568">
+	<div class="txt">
+		<p class="hover_img">
+			<a target="_blank" href="http://karlo.xyz/3AM.html">"HOW THE Z-AXIS..."
+				<span><video playsinline="" autoplay="" muted="" loop="" preload="metadata" src="https://ak5.picdn.net/shutterstock/videos/1031456045/preview/stock-footage-red-sunsets-over-sea-video-k-the-sun-touches-horizon-red-sky-yellow-sun-and-amazing-sea-summer.webm"></video></span></a></p>
+		<p class="hover_img">
+			<a target="_blank" href="http://karlo.xyz/XYZ.html">"XYZ"
+				<span><video playsinline="" autoplay="" muted="" loop="" preload="metadata" src="https://ak8.picdn.net/shutterstock/videos/1014204548/preview/stock-footage-skydiver-having-fun-above-the-sea-mountains-k.webm"></video></span></a></p>
+	</div>
+
+
+	<div id="myNav" class="overlay">
+		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">x</a>
+		<div class="overlay-content">
+		<a href="mailto:studio@constantdullaart.com?subject=request%20for%20studio%20Constant%20Dullaart&amp;body=Hi%20studio%20Constant%20Dullaart!%0A%0A...">Contact Studio ;)</a></div>
+		</div>
+		<div class="navopen">
+		<span style="font-size:100px;position:fixed;z-index:6;font: Palatino;
+		font-size:5em;
+  		color: white;
+ 	 	font-variant: normal;
+		font-weight: 900;
+		line-height: 50px;
+  		text-decoration: none;
+  		text-shadow: -1px -1px 1px grey, 1px 1px 0px #000;
+  		font-weight: bold;" onclick="openNav()">☰</span>
+		</div>
+		<script>
+			
+function openNav() {
+  document.getElementById("myNav").style.width = "100%";
+}
+
+function closeNav() {
+  document.getElementById("myNav").style.width = "0%";
+}
+
+	</script>
+</body>
+</html>
