@@ -34,6 +34,30 @@
   background-color: #f1f1f1;
 }
 
+#mydiv-5 {
+  position: fixed;
+  top: 105px;
+  left: 732px;
+  z-index: 60;
+  background-color: #f1f1f1;
+}
+
+#mydiv-6 {
+  position: fixed;
+  top: 66px;
+  left: 250px;
+  z-index: 60;
+  background-color: #f1f1f1;
+}
+
+#mydiv-7 {
+  position: fixed;
+  top: 66px;
+  left: 250px;
+  z-index: 60;
+  background-color: #f1f1f1;
+}
+
 .sidecorner-1{
 	position: fixed;
 	bottom: 159px;
