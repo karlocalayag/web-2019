@@ -4,7 +4,7 @@
 
 #mydiv {
   position: fixed;
-  top: 105px;
+  top: 117px;
   left: 732px;
   z-index: 60;
   background-color: #f1f1f1;
@@ -20,7 +20,7 @@
 
 #mydiv-3 {
   position: fixed;
-  top: 105px;
+  top: 117px;
   left: 732px;
   z-index: 60;
   background-color: #f1f1f1;
@@ -36,7 +36,7 @@
 
 #mydiv-5 {
   position: fixed;
-  top: 105px;
+  top: 117px;
   left: 732px;
   z-index: 60;
   background-color: #f1f1f1;
@@ -60,7 +60,7 @@
 
 .sidecorner-1{
 	position: fixed;
-	bottom: 159px;
+	bottom: 160px;
 	left: 692px;
 	width: 16px;
 	height: 48px;
@@ -69,7 +69,7 @@
 
 .sidecorner-2{
 	position: fixed;
-	bottom: 159px;
+	bottom: 160px;
 	left: 660px;
 	width: 48px;
 	height: 16px;
@@ -92,6 +92,14 @@
 	width: 48px;
 	height: 16px;
 	background: black;
+}
+
+.topleftcorner{
+	position: fixed;
+	top: 5pt;
+	width: 40px;
+	height: 40px;
+	background: white;
 }
 
 body {
