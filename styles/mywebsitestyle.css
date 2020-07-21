@@ -4,8 +4,8 @@
 
 #mydiv {
   position: fixed;
-  top: 66px;
-  left: 250px;
+  top: 105px;
+  left: 732px;
   z-index: 60;
   background-color: #f1f1f1;
 }
@@ -20,8 +20,8 @@
 
 #mydiv-3 {
   position: fixed;
-  top: 66px;
-  left: 250px;
+  top: 105px;
+  left: 732px;
   z-index: 60;
   background-color: #f1f1f1;
 }
@@ -47,6 +47,24 @@
 	position: fixed;
 	bottom: 159px;
 	left: 660px;
+	width: 48px;
+	height: 16px;
+	background: black;
+}
+
+.sidecorner-3{
+	position: fixed;
+	bottom: 584px;
+	left: 692px;
+	width: 16px;
+	height: 48px;
+	background: black;
+}
+
+.sidecorner-4{
+	position: fixed;
+	bottom: 616px;
+	left: 692px;
 	width: 48px;
 	height: 16px;
 	background: black;
@@ -110,15 +128,16 @@ a:active {
 
 .thoughts {
 	font-family: 'Roboto', sans-serif;
-	font-weight: bold;
+	font-weight: normal;
 	font-size: 9pt;
 	letter-spacing: 2pt;
 	line-height: 17pt;
 	background: white;
 	width: 190pt;
 	text-align: left;
-	margin: 55pt;
 	z-index: 1;
+	position: relative;
+	top: 600pt;
 }
 
 .main {
@@ -153,10 +172,23 @@ a:active {
 	font-weight: normal;
 	letter-spacing: 5pt;
 	color: black;
+	position: fixed;
+	margin: 0pt;
+	top: 440pt;
+	left: 92pt;
+	z-index: 1;
+}
+
+.top-detail {
+	font-family: 'Roboto', sans-serif;
+	font-size: 6pt;
+	font-weight: normal;
+	letter-spacing: 5pt;
+	color: black;
 	position: absolute;
 	margin: 0pt;
-	top: 400pt;
-	left: 92pt;
+	top: 27pt;
+	left: 328pt;
 	z-index: 1;
 }
 
