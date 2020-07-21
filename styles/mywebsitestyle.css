@@ -102,6 +102,20 @@
 	background: white;
 }
 
+.bottomdash{
+	position: relative;
+	top: 700px;
+	left: 242px;
+	width: 1250px;
+	height: 1000px;
+	background: white;
+	opacity: 80%;
+	z-index: 150;
+	font-family: 'Roboto', sans-serif;
+	font-weight: normal;
+	font-size: 22pt;
+}
+
 body {
 	/* background: grey; */
 	position: absolute;
@@ -224,8 +238,31 @@ a:active {
 	z-index: 1;
 }
 
+.top-detail-2 {
+	font-family: 'Roboto', sans-serif;
+	font-size: 6pt;
+	font-weight: normal;
+	letter-spacing: 5pt;
+	color: black;
+	position: relative;
+	margin: 0pt;
+	top: 396pt;
+	left: 684pt;
+	z-index: 1;
+}
 
-
+.top-detail-3 {
+	font-family: 'Roboto', sans-serif;
+	font-size: 6pt;
+	font-weight: normal;
+	letter-spacing: 5pt;
+	color: black;
+	position: relative;
+	margin: 0pt;
+	top: 396pt;
+	left: 1184pt;
+	z-index: 1;
+}
 
 
 
