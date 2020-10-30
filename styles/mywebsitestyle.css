@@ -109,27 +109,14 @@
 	width: 902px;
 	height: 1000px;
 	background: white;
-	opacity: 80%;
+	padding-top: 5pt;
+	opacity: 100%;
 	z-index: 110;
-}
-
-body {
-	/* background: grey; */
-	position: absolute;
-	overflow-x:hidden !important;
-}
-
-
-a:link,
-a:visited,
-a:active {
-	color:#000;
-	text-decoration:none;
-}
-
-a:hover {
-	color: #000;
-	text-decoration:overline;
+	font-family: 'Roboto', sans-serif;
+	font-size: 44pt;
+	font-weight: normal;
+	letter-spacing: 6pt;
+	color: black;
 }
 
 
@@ -145,6 +132,29 @@ a:hover {
 	z-index: 1;
 	position: relative;
 	top: 600pt;
+}
+
+/*iframe {
+	position: fixed;
+	top: 100pt;
+}*/
+
+main {
+	/* background: grey; */
+	position: absolute;
+	overflow-x:hidden !important;
+}
+
+a:link,
+a:visited,
+a:active {
+	color:#000;
+	text-decoration:none;
+}
+
+a:hover {
+	color: #000;
+	text-decoration:overline;
 }
 
 .main {
